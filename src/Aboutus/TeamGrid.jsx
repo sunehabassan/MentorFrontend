@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import sunehaImage from "../assets/kaka.JPEG";
+import sunehaImage from "../assets/kaka.jpeg";
 
 const teamMembers = [
   {
