@@ -38,7 +38,7 @@ const VoiceCall = () => {
             💡 <strong>Example:</strong> A student calls their mentor to discuss project architecture. The mentor explains pros and cons of each stack over a 30-minute call.
           </p>
           {/* Video Embed */}
-          <div className="mt-10 rounded-xl overflow-hidden shadow-2xl">
+          {/* <div className="mt-10 rounded-xl overflow-hidden shadow-2xl">
             <iframe
               className="w-full aspect-video"
               src="https://www.youtube.com/embed/YOUR_EMAIL_VIDEO_ID" // Replace this
@@ -47,7 +47,7 @@ const VoiceCall = () => {
               allow="autoplay; encrypted-media"
               allowFullScreen
             ></iframe>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </motion.div>

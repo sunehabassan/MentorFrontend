@@ -38,7 +38,7 @@ const VideoCall = () => {
             💡 <strong>Example:</strong> A student joins a 1-on-1 Zoom call with a mentor who walks them through a debugging session live while screen sharing.
           </p>
           {/* Video Embed */}
-          <div className="mt-10 rounded-xl overflow-hidden shadow-2xl">
+          {/* <div className="mt-10 rounded-xl overflow-hidden shadow-2xl">
             <iframe
               className="w-full aspect-video"
               src="https://www.youtube.com/embed/YOUR_EMAIL_VIDEO_ID" // Replace this
@@ -47,7 +47,7 @@ const VideoCall = () => {
               allow="autoplay; encrypted-media"
               allowFullScreen
             ></iframe>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </motion.div>

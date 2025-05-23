@@ -40,7 +40,7 @@ const EmailSupport = () => {
           </p>
 
           {/* Video Embed */}
-          <div className="mt-10 rounded-xl overflow-hidden shadow-2xl">
+          {/* <div className="mt-10 rounded-xl overflow-hidden shadow-2xl">
             <iframe
               className="w-full aspect-video"
               src="https://www.youtube.com/embed/YOUR_EMAIL_VIDEO_ID" // Replace this
@@ -49,7 +49,7 @@ const EmailSupport = () => {
               allow="autoplay; encrypted-media"
               allowFullScreen
             ></iframe>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </motion.div>
