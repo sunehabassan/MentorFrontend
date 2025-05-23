@@ -7,8 +7,8 @@ import {
   BulbOutlined,
   ClockCircleOutlined,
 } from '@ant-design/icons';
-import expert from '../../src/assets/expert.JPG';
-import communities from '../../src/assets/communities.PNG';
+import expert from '../../src/assets/expert.jpg';
+import communities from '../../src/assets/communities.png';
 
 const benefits = [
   {
@@ -84,12 +84,12 @@ const BenefitsSection = () => {
               >
                 <div
                   className="!h-32 !w-full !bg-cover !bg-center"
-                  style={{ backgroundImage: `url(${benefit.img})` }}
+                  style={{ backgroundImage: `url(${benefits.img})` }}
                 />
                 <div className="!flex !flex-col !items-center !text-center !space-y-3 !py-6 !px-4">
                   {benefit.icon}
-                  <h3 className="!text-xl !font-extrabold !text-white drop-shadow">{benefit.title}</h3>
-                  <p className="!text-sm !text-gray-300">{benefit.description}</p>
+                  <h3 className="!text-xl !font-extrabold !text-white drop-shadow">{benefits.title}</h3>
+                  <p className="!text-sm !text-gray-300">{benefits.description}</p>
                 </div>
               </Card>
             </div>
