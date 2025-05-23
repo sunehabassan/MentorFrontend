@@ -13,7 +13,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { baseURL } from "/config";
 import pic1 from "../../../src/assets/name.jpg";
 import pic2 from "../../../src/assets/timeavail.jpg";
-import pic3 from "../../../src/assets/degree.PNG";
+import pic3 from "../../../src/assets/degree.png";
 import pic4 from "../../../src/assets/experience.jpg";
 import pic5 from "../../../src/assets/documents.jpg";
 import pic6 from "../../../src/assets/socialmedia.jpg";

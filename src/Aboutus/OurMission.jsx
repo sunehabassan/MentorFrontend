@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import Experience from "../assets/experience.PNG";
-import growth from "../assets/growth.PNG";
-import top from "../assets/top.PNG";
-import partners from "../assets/partners.PNG";
+import Experience from "../assets/experience.png";
+import growth from "../assets/growth.png";
+import top from "../assets/top.png";
+import partners from "../assets/partners.png";
 
 const missionPoints = [
   {

@@ -5,7 +5,7 @@ import { toast, Bounce, ToastContainer } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { motion } from 'framer-motion';
-import img from '../../src/assets/partners.PNG';
+import img from '../../src/assets/partners.png';
 import { FaUserCircle, FaEnvelope, FaCommentDots, FaCheckCircle } from 'react-icons/fa';
 import Studentheader from '../components/Studentheader';
 const Contactstu = () => {
